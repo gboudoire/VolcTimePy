@@ -1,26 +1,25 @@
 # -*- coding: utf-8 -*-
-
 import matplotlib.pyplot as plt 
 import math as mat
 
 """
 Created on Sun Aug  9 14:04:59 2015
-
 @author: Guillaume Boudoire (LGSR/OVPF/IPGP)
 
-"""
-
 # TO DO LIST
-    #1) Créer un vrai fichier pour comparer
-    #2) Vérifier le calcul des coefficients de diffusion
-    #3) Vérifier le passage de fO2 à NNO
-    #4) Description of input file and file ReadMe (abscisses dans ordre croissant et bonnes unités notamment D m2/s et Fo 0.8)
-    #5) Calculation of the error (coeff & deviation)
-    #6) Calculation fitting function
-    #7) Multi-plateaux
-    #7) Interface Tkinter
-    #8) Publication "Estimating residence time through crystal zoning analysis:
-       #simple diffusion VolcTimePy program in Python 2.7 (Boudoire, Boissier, Simon, DiMuro, Michon, Gillet)
+    1) Créer un vrai fichier pour comparer
+    2) Vérifier le calcul des coefficients de diffusion
+    3) Vérifier le passage de fO2 à NNO
+    4) Description of input file and file ReadMe (abscisses 
+    dans ordre croissant et bonnes unités notamment D m2/s et Fo 0.8)
+    5) Calculation of the error (coeff & deviation)
+    6) Calculation fitting function
+    7) Multi-plateaux
+    7) Interface Tkinter
+    8) Publication "Estimating residence time through crystal zoning analysis:
+       #simple diffusion VolcTimePy program in Python 2.7 (Boudoire,
+       Boissier, Simon, DiMuro, Michon, Gillet)
+"""
 
 ###################################################################################################
 ##################################### VolcTimePy1.0 programm: #####################################

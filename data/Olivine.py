@@ -14,9 +14,10 @@ Created on 26 oct. 2015
     GNU Lesser General Public License, Version 3
     (http://www.gnu.org/copyleft/lesser.html)
 '''
+from data import Mineral
 
 
-class Mineral(object):
+class Olivine(Mineral):
     '''
     classdocs
     '''
