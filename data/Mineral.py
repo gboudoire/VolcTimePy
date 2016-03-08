@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 '''
 Created on 26 oct. 2015
 
@@ -25,3 +26,9 @@ class Mineral(object):
         '''
         Constructor
         '''
+
+    def get_diffusion_coef(self):
+        '''
+        Return the diffusion coefficient
+        '''
+        pass

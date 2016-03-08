@@ -15,21 +15,16 @@ Created on 26 oct. 2015
     GNU Lesser General Public License, Version 3
     (http://www.gnu.org/copyleft/lesser.html)
 '''
-from data import Mineral
 
 
-class Olivine(Mineral):
+class Analysis(object):
     '''
     classdocs
     '''
 
-    def __init__(self):
+    def __init__(self, mineral):
         '''
         Constructor
         '''
-
-    def get_diffusion_coef(self):
-        '''
-        Return the diffusion coefficient
-        '''
-        pass
+        self.measures = []
+        self.mineral = mineral
