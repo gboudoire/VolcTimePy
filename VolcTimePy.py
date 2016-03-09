@@ -358,7 +358,7 @@ else:
         # Iteration model based on Fick's Law (finite elements)
 
 # Time parameter in the equation
-timef = (float(Deltat) / ((res_a * (10 ^ (-6))) * (res_a * (10 ^ (-6)))))
+timef = (float(Deltat) / ((res_a * (10**(-6))) * (res_a * (10**(-6)))))
 impress = "N"
 while impress != "Y":
     timestep = input("Iteration number:")
